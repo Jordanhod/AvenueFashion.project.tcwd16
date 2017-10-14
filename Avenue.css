@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,900'); /** font-family: 'Montserrat', sans-serif; **/
+
+html, body, header, footer, main, ul, h1 {
+    margin:0;
+    padding:0;
+}
+html, body {
+    width: 2050px;
+    height: 3800px;
+}
+header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top:0px;
+    left:0px;
+    z-index: 99999;
+    width:2050px;
+    height: 45px;
+}
+header .UserDetailsNav {
+    display: inline-block;
+    background-color: #333333;
+    width:2050px;
+    height: 45px;
+}
+header .UserDetailsNav .currency {
+    color:  #999999;
+    background-color: #333333;
+    border: 0px;
+    position: absolute;
+    font-family: Montserrat;
+    color:  #999999;
+    margin: 0px;
+    padding: 0px;
+    left: 440px;
+    top:16px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: right;    
+}
+header .UserDetailsNav ul {   
+    position: absolute;
+    list-style: none;
+    left: 1247px;
+    top:16px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+    color:  #999999;
+    font-size: 13px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 20px;/* Approximation due to font substitution */
+    text-align: right;
+}
+header .UserDetailsNav ul li{
+    display: inline-block;
+    padding-right:60px;
+}
+header .shoppingCart img {
+    position: absolute;
+    left:22px;
+    top:14px;
+    color:  #ffffff;
+}
+header .shoppingCart {
+    position: absolute;
+    background-color:  #00c8c8;
+    width: 147px;
+    height: 45px;
+    left: 1463px;
+    padding:0;
+    margin: 0;
+}
+header .shoppingCart select{
+    position: absolute;
+    float:right;
+    list-style: none;
+    left: 64px;
+    top:17px;
+    margin: 0px;
+    padding: 0px;
+    background-color:  #00c8c8;
+    border:0px;
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+}
+main .MainNavList ul li{
+    display: inline-block;
+    list-style: none;
+    padding:8px;
+}
+main .PopUpList {
+    display: inline-block;
+    padding: 8px;
+    vertical-align: top;
+}
+main .PopUpList ul {
+    list-style: none;
+    padding-left: 0;
+}
+main .PopUpAutomnSale {
+    background-color:  #333333;
+    width: 407px;
+    height: 200px;
+}
+main .topBanner{
+    background-color:  #f8f8f8;
+    width: 2050px;
+}
+main .topBannerimg {
+    position: relative;
+    top:0px;
+    width: 2050px;
+    height:920px;
+    x: 227px;
+    y:44px;
+}
+main .search {
+    font-family: FontAwesome;
+    position: absolute;
+    float:right;
+    top:82px;
+    right:135px;
+}
+main .search img {
+    position: relative;
+    top:3.5px;
+    right:22px;
+}
+input::-webkit-input-placeholder {
+    color: #989898;
+    padding:10px;
+    }
+input:-moz-placeholder { 
+    color: #989898;
+    padding:10px;
+}
+input::-moz-placeholder { 
+    color: #989898;
+    padding:10px;
+}
+input:-ms-input-placeholder { 
+    color: #989898;
+    padding:10px;
+}
+.search input {
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #e7e7e7;
+    box-sizing: border-box;
+    background-color:  rgba(248, 248, 248, 0);
+    font-size: 14px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 27px;/* Approximation due to font substitution */
+    text-align: left;
+    width: 190px;
+    height: 30px;
+}
+main h1{
+    position: absolute;
+    float:left;
+    font-family: Montserrat, sans-serif;
+    color:  #222222;
+    font-weight: 700;
+    font-variant-caps: small-caps;
+    text-align: left;
+    left:134px;
+    top:82px;
+    width: 300px;
+}
+main .ave {
+    position: absolute;
+    float:left;
+    top:345px;
+    left: 260px;
+    margin:0;
+    font-family: Montserrat;
+    width:1529px;
+    height: 316px;
+    letter-spacing: 330px;
+    color: #575153;
+    font-size: 450px;
+    font-weight: 700;
+    text-align: center;
+}
