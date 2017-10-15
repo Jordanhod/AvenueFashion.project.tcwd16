@@ -226,15 +226,55 @@ main .NavPopUp {
 }
 main .PopUpList {
     display: inline-block;
-    padding: 8px;
+    padding: 0px 40px 0px 10px;
     vertical-align: top;
+    height: 296px;
 }
 main .PopUpList ul {
+    position: relative;    
     list-style: none;
     padding-left: 0;
+    font-family: Montserrat;
+    color:  #727272;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    left: 29px;
+    top: 43px;
+}
+main .PopUpList h3 {
+    position: relative;
+    font-family: Montserrat;
+    color:  #575153;
+    margin:0;
+    padding:0;
+    font-size: 12px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 20px;/* Approximation due to font substitution */
+    text-align: left;
+    left: 29px;
+    top: 30px;
 }
 main .PopUpAutomnSale {
     background-color:  #333333;
+    position: relative;
+    left: 30px;
+    margin:0;
+    padding: 0;
     width: 407px;
     height: 200px;
+    float: left;
+}
+main .PopUpAutomnSale p {
+    position: relative;
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 36px;
+    line-height: 48px;
+    font-variant-caps: all-small-caps;    
+    text-align: center;
+    top:53px;
+    margin:0;
+    padding: 0;
 }
