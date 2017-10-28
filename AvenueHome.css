@@ -291,9 +291,7 @@ main .homePageProducts {
     position: absolute;
     left:138px;
     top:1026px;
-    border-top: 1px solid #eeeeee;
-    border-bottom: 1px solid #eeeeee;
-    
+    border-top: 1px solid #eeeeee;    
 }
 main .productsNav {
     position: relative;
@@ -394,6 +392,7 @@ main .productsimg .rrp {
     height: 690px;
     margin:0;
     padding:0;
+    float: left;
 }
 .productsimg .greenWithDotsT{
     position: absolute;
@@ -418,12 +417,31 @@ main .productsimg .rrp {
 }
 main .productsimg .infoBar {
     position: absolute;
-    top: 541px;
-    width: 350px;
-    left: 55px;
-    height: 129px;
+    top: 521px;
+    width: 420px;
+    left: 20px;
+    height: 150px;
     margin: 0;
     padding:0;
+    border-top: 1px solid #eeeeee;
+    z-index: 1;
+    background-color:  #ffffff;    
+}
+.productsimg .infoBar h3{
+    position: absolute;
+    font-family: Montserrat;
+    color:  #727272;
+    font-size: 19px;
+    padding: 0;
+    margin: 0;
+    width: 311px;
+    height: 12px;
+    font-weight: 400;
+    font-variant-caps: all-small-caps;
+    line-height: 20px;
+    text-align: center;
+    left: 55px;
+    top: 21px;
 }
 .productsimg .infoBar p{
     position: absolute;
@@ -432,23 +450,13 @@ main .productsimg .infoBar {
     font-size: 16px;
     padding: 0;
     margin: 0;
-    width: 350px;
-    top: 31px;
+    width: 306px;
+    height: 34px;
+    top: 52px;
+    left:57px;
     font-weight: 400;
     line-height: 22px;
     text-align: center;
-}
-.productsimg .infoBar h3{
-    font-family: Montserrat;
-    color:  #727272;
-    font-size: 19px;
-    padding: 0;
-    margin: 0;
-    font-weight: 400;
-    font-variant-caps: all-small-caps;
-    line-height: 20px;
-    text-align: center;
-    left: 25%;
 }
 .productsimg .icons {
     position: absolute;
@@ -457,8 +465,8 @@ main .productsimg .infoBar {
     width: 123px;
     align-self: center;
     justify-content: space-between;
-    top: 80px;
-    left: 114px;
+    top: 103px;
+    left: 149px;
 }
 .productsimg .icons div {
     border-radius: 50%;
@@ -509,4 +517,133 @@ main .productsimg .infoBar {
 .productsimg .orangeT .thumbnails img  {
     width: 80px;
     height: 100px;
+}
+.seperationLine {
+    position: absolute;
+    background-color:  #eeeeee;
+    width: 1770px;
+    height: 1px;
+    top: 1423px;
+}
+main .lookBooks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    left:0px;
+    top: 2512px;
+    width: 2050px;
+    height: 530px;
+}
+main .lookBookBox {
+    /* background-color:  #f8f8f8; */
+    width: 663px;
+    height: 530px;
+}
+main .lookBookBox h3 {
+    position: relative;
+    font-family: Montserrat;
+    color:  #575153;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: right;
+    font-variant-caps: all-small-caps;
+    width: 291px;
+    height:89px;
+    float:right;
+    left:-57px;
+    top:84px;
+    margin:0;
+    padding:0;
+    letter-spacing: 7px;
+}
+main .lookBookBox .lookbookTitle {
+    font-family: Montserrat;
+    color:  #575153;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 54px;
+    text-align: right;
+    font-variant-caps: all-small-caps;
+    margin:0;
+    padding:0;
+}
+main .lookBookBox p {
+    position: relative;
+    font-family: Roboto;
+    color:  #727272;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: right;
+    float:right;
+    height: 81px;
+    margin:0;
+    padding:0;
+    left:236px;
+    top:217px;
+}
+main #men p {
+    width: 294px;
+}
+main #women p {
+    width: 275px;
+}
+main #you p {
+    width: 290px;
+}
+main .lookBookBox .viewNow {
+    position:relative;
+    top: 249px;
+    left: 426px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #737373;
+    box-sizing: border-box;
+    background-color:  rgba(115, 115, 115, 0);
+    width: 180px;
+    height: 59px;
+    font-family: Montserrat;
+    color:  #454647;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3px;
+    font-variant-caps: all-small-caps;
+}
+main #men {
+    background-image: url("Avenue_Images\\MenLookBook.jpg");
+}
+main #women {
+    background-image: url("Avenue_Images\\WomenLookBook.jpg");
+}
+main #you {
+    background-image: url("Avenue_Images\\YourLookBookSilhouette.jpg");
+}
+main .lookBookBox .viewNow:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #737373;
+    background-color:  #00c8c8;
+}
+footer {
+    position: absolute;
+    width: 2050px;
+    height: 634px;
+    top: 3166px;
+}
+footer .sitemap {
+    background-color:  #f8f8f8;
+    width: 2050px;
+    height:596px;
+    margin:0;
+    padding:0;
+}
+footer .copyrightsLine {
+    background-color:  #333333;
+    width: 2050px;
+    height: 45px;
+    margin:0;
+    padding:0;
 }
