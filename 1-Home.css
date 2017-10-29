@@ -640,10 +640,149 @@ footer .sitemap {
     margin:0;
     padding:0;
 }
+footer .footerBoxes{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 1170px;
+    height: 200px;
+    justify-content: space-between;
+    left: 440px;
+    top: 98px;
+}
+footer .awardBox{
+    background-color:  #333333;
+    width: 570px;
+    height: 200px;
+    text-align: center;
+}
+footer .socialMediaBox {
+    background-color:  #00c8c8;
+    width: 570px;
+    height: 200px;
+    text-align: center;
+    vertical-align: center;
+}
+footer .awardBox h3{
+    font-family: Montserrat;
+    font-variant-caps: all-small-caps;
+    letter-spacing: 5px;
+    color:  #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+footer .awardBox .fashion {
+    color:  #ffffff;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+
+footer .socialMediaBox .icons {
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    left: 144px;
+    top:83px;
+    width: 281px;
+    height: 34px;
+    justify-content: space-between;
+    color:  #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+}
 footer .copyrightsLine {
     background-color:  #333333;
     width: 2050px;
     height: 45px;
     margin:0;
     padding:0;
+}
+footer .copyrightsLine p {
+    margin: 0;
+    padding: 0;
+}
+footer .copyrightsLine .copyrights {
+    position: relative;
+    font-family: Montserrat;
+    color:  #999999;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    width: 164px;
+    height: 11px;
+    left:440px;
+    
+}
+footer .copyrightsLine .credits {
+    position: relative;
+    left: 1216px;
+    top: 4px;
+    display: flex;
+    justify-content: space-between;
+    width: 395px;
+    height:13px;
+    font-family: Montserrat;
+    color:  #777777;
+    font-size: 13px;  
+    font-weight: 400;
+}
+footer .copyrights .tm {
+    font-size: 0.75em;
+    vertical-align: text-bottom;
+    margin: 0;   
+    font-variant-caps: all-small-caps;
+}
+footer .sitemap ul {
+    list-style: none;
+    font-family: Montserrat;
+    color:  #727272;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+}
+footer .sitemapColumns {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 102px 0px 0px;
+}
+footer .sitemapColumns h4 {
+font-family: Montserrat;
+color:  #575153;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+font-variant-caps: all-small-caps;
+}
+footer .sitemap nav {
+    position: relative;
+    left:439px;
+    top: 43px;
+}
+footer .sitemap address {
+    font-style: inherit;
+    width:230px;
+}
+footer .sitemap .postalAddress {
+    position: relative;
+    top:5px;
+    display: flex;
+    flex-direction: column;
+    width: 212px;
+    height: 34px;
+    align-content: space-between;
+    padding-bottom: 26px;
+}
+footer .sitemap .postalAddress p {
+    margin:0;
+    padding:0;
+    height: 18px;
+    position:relative;
+    top:-5px;
 }
