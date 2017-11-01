@@ -11,25 +11,27 @@
     <script src="https://use.fontawesome.com/2f39747657.js"></script>
     <header>
         <nav class="UserDetailsNav">
-            <select class="currency">
-                <option value="GBP">Currency: GPB</option>
-                <option value="USD">Currency: USD</option>
-                <option value="ILS">Currency: ILS</option>
-                <option value="Yuan">Currency: Yuan</option>
-            </select>
+            <div class="currencyBox">
+            <span>Currency:</span>
+                <select class="currency">
+                    <option value="GBP" selected>GPB</option>
+                    <option value="USD">USD</option>
+                    <option value="ILS">ILS</option>
+                    <option value="Yuan">Yuan</option>
+                </select>            
+            </div>
+            <span class="fa fa-angle-down fa-2"></span>
             <ul>        
                 <li>Register</li>
-                <li>sign in</li>
+                <li>Sign In</li>
             </ul>
             <div class="shoppingCart">
                 <img src="Avenue_Images\shoppingCart.png" alt="shopping cart icon">             
-                <select name="shoppingCart">
-                        <option value="0">empty</option>
-                </select>
+                <p class="shoppingCartStatus">empty</p>
+                <span class="fa fa-angle-down fa-2"></span>
             </div>
         </nav>
     </header>
-
     <main>
         <div class="topBanner">
             <img class="topBannerimg" src="Avenue_Images\manTopBanner.jpg" alt="Man dressed in an AVE t-shirt: Avenue fashion">
@@ -43,7 +45,7 @@
                <nav class="MainNavList">
                     <ul class="MainNavul">
                         <li class="MainNavli"> 
-                            <span>Mens</span>
+                            <span>Mens <br> <span class="fa fa-angle-down fa-2"></span></span>
                             <div class="NavPopUp">
                                 <div class="PopUpList">
                                     <h3>Casuals</h3>
@@ -71,10 +73,10 @@
                                 </div>
                             </div>                
                         </li>
-                        <li class="MainNavli" ><span class="Women">Womens</span></li>
-                        <li class="MainNavli" ><span class="The Brand">The Brand</span></li>
-                        <li class="MainNavli" ><span class="Local Stores">Local Stores</span></li>
-                        <li class="MainNavli"><span class="Look Book">Look Book</span></li>
+                        <li class="MainNavli" ><span class="Women">Womens <br> <span class="fa fa-angle-down fa-2"></span></span></li>
+                        <li class="MainNavli" ><span class="The Brand">The Brand  <br> <span class="fa fa-angle-down fa-2"></span></span></li>
+                        <li class="MainNavli" ><span class="Local Stores">Local Stores  <br> <span class="fa fa-angle-down fa-2"></span></span></li>
+                        <li class="MainNavli"><span class="Look Book">Look Book <br> <span class="fa fa-angle-down fa-2"></span></span></li>
                     </ul>
                 </nav>                
                 <input type="button" name="Men's collection" class="ShopMen" value="shop men's collection">
