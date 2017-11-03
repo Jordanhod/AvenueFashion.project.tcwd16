@@ -181,9 +181,9 @@ main .search input {
     border-color:  #e7e7e7;
     box-sizing: border-box;
     background-color:  rgba(248, 248, 248, 0);
-    font-size: 14px;/* Approximation due to font substitution */
+    font-size: 14px;
     font-weight: 400;
-    line-height: 27px;/* Approximation due to font substitution */
+    line-height: 27px;
     text-align: left;
     width: 190px;
     height: 30px;
