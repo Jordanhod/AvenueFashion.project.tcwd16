@@ -296,9 +296,9 @@ main .PopUpList h3 {
     color:  #575153;
     margin:0;
     padding:0;
-    font-size: 12px;/* Approximation due to font substitution */
+    font-size: 12px;
     font-weight: 400;
-    line-height: 20px;/* Approximation due to font substitution */
+    line-height: 20px;
     text-align: left;
     top: 30px;
 }
@@ -379,13 +379,107 @@ main .topBanner .darken {
     top: 0px;  
     float: left;
 }
-
-
+main .localStores {
+    position: absolute;
+    top:667px;
+}
+main .location {
+    position: relative;
+    display: inline-block;
+    width: 369px;
+    left:440px;
+}
+main .location p {
+    font-family: Roboto;
+    color:  #8e8c8c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+main .location h4 {
+    font-family: 'Montserrat';
+    color:  #727272;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    font-variant-caps: all-small-caps;
+}
+main .location h3 {
+    font-family: 'Montserrat';
+    color:  #575153;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    font-variant-caps: all-small-caps;
+}
+main .location .viewDetails {
+    position:relative;
+    /* top: 249px;
+    left: 426px; */
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #737373;
+    box-sizing: border-box;
+    background-color:  rgba(115, 115, 115, 0);
+    width: 218px;
+    height: 59px;
+    font-family: 'Montserrat';
+    color:  #454647;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 3px;
+    font-variant-caps: all-small-caps;
+}
+main .location .viewDetails:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #737373;
+    background-color:  #00c8c8;
+}
+main .London {
+    padding-right: 32px;
+}
+main .NewYork {
+    padding-right: 32px;
+}
+main .mapPopUp {
+    position: relative;
+    top:973px;
+    height: 530px;
+    white-space: nowrap;
+    width: 2050px;
+    height: 530px;
+}
+main .mapPopUp .column {
+    display: inline-block;
+    vertical-align: top;
+    padding:0;
+    margin: 0;
+}
+main .GoogleMap {
+    width: 1387px;
+    height: 530px;
+}
+main .GoogleMap .fa-map-marker {
+    float:left;
+}
+main .mapPopUp .mapText {
+    position: relative;
+    left: -3px;
+    width: 663px;
+    height: 530px;
+    background-color:  #f8f8f8;    
+    white-space:initial;
+}
 footer {
     position: absolute;
     width: 2050px;
     height: 634px;
-    top: 3166px;
+    top: 1627px;
 }
 footer .sitemap {
     background-color:  #f8f8f8;

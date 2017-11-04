@@ -322,10 +322,12 @@ main .topBanner h2 {
     position: absolute;
     font-family: 'Montserrat', sans-serif;
     color:  #ffffff;
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 65px;
+    font-weight: 300;
     text-align: center;
-    top: 171px;
+    height: 36px;
+    /* top:-22px; */
+    top: 141px;
     left: 872px;
     float:left;
     margin:0;
@@ -333,17 +335,20 @@ main .topBanner h2 {
     letter-spacing: 4px;
     font-variant-caps: all-small-caps;
 }
+main .topBanner h2 span {
+    font-weight: 700;
+}
 main .topBanner .slogan {
     position: absolute  ;
     font-family: 'Montserrat';
     color:  #ffffff;
     margin:0;
     padding:0;
-    width: 520px;
-    top: 224px;
+    width: 560px;
+    top: 239px;
     left: 765px;
-    letter-spacing: 4px;
-    font-size: 30px;
+    letter-spacing: 3px;
+    font-size: 40px;
     font-weight: 400;
     line-height: 54px;
     /* text-align: center; */
@@ -376,7 +381,7 @@ main .valuesAndMission .valuesBigimg {
 main .valuesAndMission h3 {
     font-family: 'Montserrat';
     color:  #575153;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 400;
     line-height: 20px;
     text-align: left;
@@ -385,10 +390,10 @@ main .valuesAndMission h3 {
 main .valuesAndMission h4 {
     font-family: 'Montserrat';
     color:  #727272;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 20px;
-    text-align: left;
+    text-align: justify;
     font-variant-caps: all-small-caps;
 }
 main .valuesAndMission p {
