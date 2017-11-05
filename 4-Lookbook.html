@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="1-Home.css">
+    <link rel="stylesheet" href="4-Lookbook.css">
 </head>
 <body>
     <script src="https://use.fontawesome.com/2f39747657.js"></script>
@@ -31,18 +31,16 @@
                 <span class="fa fa-angle-down fa-2"></span>
             </div>
         </nav>
-    </header>
+    </header>    
     <main>
-        <div class="topBanner">
-            <img class="topBannerimg" src="Avenue_Images\manTopBanner.jpg" alt="Man dressed in an AVE t-shirt: Avenue fashion">
+        <div class="top">
             <h1><span style="font-weight:700">Avenue</span><span style="font-weight:400"> Fashion</span></h1>
-            <div class="ave"><p>AVE</p></div>
             <div class="search">
                 <input type="search" placeholder="search..">
                 <img src="Avenue_Images\Search.jpg" alt="search icon">
-        </div>
+            </div>
             <div class="MainNav">
-               <nav class="MainNavList">
+                <nav class="MainNavList">
                     <ul class="MainNavul">
                         <li class="MainNavli"> 
                             <span>Mens <br> <span class="fa fa-angle-down fa-2"></span></span>
@@ -75,83 +73,93 @@
                         </li>
                         <li class="MainNavli" ><span class="Women">Womens <br> <span class="fa fa-angle-down fa-2"></span></span></li>
                         <li class="MainNavli" ><span class="The Brand">The Brand  <br> <span class="fa fa-angle-down fa-2"></span></span></li>
-                        <li class="MainNavli" ><span class="Local Stores">Local Stores  <br> <span class="fa fa-angle-down fa-2"></span></span></li>
+                        <li class="MainNavli" ><span class="Local Stores currentPage">Local Stores  <br> <span class="fa fa-angle-down fa-2"></span></span></li>
                         <li class="MainNavli"><span class="Look Book">Look Book <br> <span class="fa fa-angle-down fa-2"></span></span></li>
                     </ul>
                 </nav>                
-                <input type="button" name="Men's collection" class="ShopMen" value="shop men's collection">
             </div>
         </div>
-        <div class="homePageProducts">
-            <nav class="productsNav">
+        <div class="topBanner">
+            <img class="topBannerimg" src="Avenue_Images\TheBrand_TopBanner.jpg" alt="Avenue fashion - The brand banner">        
+            <div class="darken"></div>
+            <h2><span>Our</span> Lookbook</h2>
+            <p class="slogan">Latest posts - Mens &amp; womens </p>
+        </div>
+        <div class="lookbooks">
+            <nav class="lookbooksNav">
                 <ul>
-                    <li>popular</li>
-                    <li>new arrivals</li>
-                    <li>best sellers</li>
-                    <li>special offers</li>
-                    <li>coming soon</li>
+                    <li>Latest</li>
+                    <li>Most Liked</li>
+                    <li>Best sellers</li>
+                    <li>Price low to high</li>
+                    <li>Price high to low</li>
                 </ul>
             </nav>
-            <div class="productsimg">
-                <div class="triangleT">
-                    <img src="Avenue_Images\triangleT.jpg" alt="Black Avenue T-shirt long sleeves for men">
-                    <p class="rrp"><span class="currency">&#163</span>89.99</p>
-                </div>
-                <div class="monroeT">
-                    <img src="Avenue_Images\monroeT.jpg" alt="White Avenue T-shirt short sleeves for women">
-                    <p class="rrp"><span class="currency">&#163</span>47.50</p>
-                </div>
-                <div class="blackSweater">
-                    <img src="Avenue_Images\blackSweater.jpg" alt="Black Avenue sweater for men">
-                    <p class="rrp"><span class="currency">&#163</span><span class="oldPrice">107</span> <span class="currency">&#163</span><span class="newPrice">89.99</span></p>
-                </div>
-                <div class="AveBlueT">
-                    <img src="Avenue_Images\AveBlueT.jpg" alt="Light Blue Avenue T-shirt with long sleeves for men">
-                    <p class="rrp"><span class="currency">&#163</span>69.95</p>
-                </div>
-                <div class="orangeT">
-                    <img src="Avenue_Images\orangeT.jpg" alt="Orange Avenue T-shirt short sleeves for women">
-                    <p class="rrp"><span class="currency">&#163</span>29.95</p>
-                    <span class="fa fa-info-circle fa-4 "></span>     
-                    <div class="infoBar">
-                        <h3>womens burnt orange casual tee <span class="currency">&#163</span>29.99</h3>
-                        <p>classic casual t-shirt for women on the move. <br> 100% cotton.</p>
-                        <div class="icons">
-                            <div class="shoppingCart"><span class="fa fa-shopping-cart"></span></div>
-                            <div class="favorites"><span class="fa fa-heart-o fa-1"></span></div>                                <div class="arrows"><span class="fa fa-compress fa-1"></span></div>
-                        </div>
-                    </div>
-                    <div class="thumbnails">
-                        <img src="Avenue_Images\OrangeT_thumb-front.jpg" alt="Avenue Orange T-shirt - thumbnail-front">
-                        <img src="Avenue_Images\OrangeT_thumb-back.jpg" alt="Avenue Orange T-shirt - thumbnail-back">
-                    </div>
-                </div>
-                <div class="greenWithDotsT">
-                    <img src="Avenue_Images\greenWithDotsT.jpg" alt="Dark green Avenue T-shirt with short sleeves for women">
-                    <p class="rrp"><span class="currency">&#163</span>34.79</p>
-                </div>
-            </div>
-            <div class="seperationLine"></div>
         </div>
-        <div class="lookbooks_MWY">
-            <div class="lookBookBox" id="men">
-                <h3>men's <span class="lookbookTitle">Lookbook</span></h3>
-                <p>Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.Elementum metus facilisis ut phasellu.</p>
-                <button class="viewNow">view now</button>
+        <div class="lookbooks_img">
+            <div class="triangleT">
+                <!-- <img src="Avenue_Images\triangleT.jpg" alt="Black Avenue T-shirt long sleeves for men"> -->
+                <p class="rrp"><span class="currency">&#163</span>89.99</p>
             </div>
-            <div class="lookBookBox" id="women">
-                <h3>women's <span class="lookbookTitle">Lookbook</span></h3>
-                <p>Pellentesque habitant morbi tristique senec-tus et netus et malesuada fames. <br> Pellentesque laoreet quis enim et mattis. Quisque inerdum felis tellus.</p>
-                <button class="viewNow">view now</button>
+            <div class="monroeT">
+                <!-- <img src="Avenue_Images\monroeT.jpg" alt="White Avenue T-shirt short sleeves for women"> -->
+                <p class="rrp"><span class="currency">&#163</span>47.50</p>
             </div>
-            <div class="lookBookBox" id="you">
-                <h3>your <span class="lookbookTitle">Lookbook</span></h3>
-                <p>See an item you like and click the <span class="fa fa-heart-o fa-1"></span>
-                    button to add it to your lookbook where you can create your own perfect look. It's like your own boutique!</p>
-                <button class="viewNow">view now</button>
+            <div class="JanesLookbook">
+                <!-- <img src="Avenue_Images\monroeT.jpg" alt="White Avenue T-shirt short sleeves for women">
+                <p class="rrp"><span class="currency">&#163</span>47.50</p> -->
+            </div> 
+            <div class="blackSweater">
+                <!-- <img src="Avenue_Images\blackSweater.jpg" alt="Black Avenue sweater for men"> -->
+                <p class="rrp"><span class="currency">&#163</span>89.99</p>
             </div>
+            <div class="AveBlueT">
+                <!-- <img src="Avenue_Images\AveBlueT.jpg" alt="Light Blue Avenue T-shirt with long sleeves for men"> -->
+                <p class="rrp"><span class="currency">&#163</span>69.95</p>
+            </div>
+            <div class="orangeT">
+                <!-- <img src="Avenue_Images\orangeT.jpg" alt="Orange Avenue T-shirt short sleeves for women"> -->
+                <p class="rrp"><span class="currency">&#163</span>29.95</p>
+                <span class="fa fa-info-circle fa-4 "></span>     
+            </div>
+            <div class="greenWithDotsT">
+                <!-- <img src="Avenue_Images\greenWithDotsT.jpg" alt="Dark green Avenue T-shirt with short sleeves for women"> -->
+                <p class="rrp"><span class="currency">&#163</span>34.79</p>
+            </div>
+            <div class="WinANewLook">
+                <!-- <img src="Avenue_Images\monroeT.jpg" alt="White Avenue T-shirt short sleeves for women">
+                <p class="rrp"><span class="currency">&#163</span>47.50</p> -->
+            </div>
+            <div class="AveGrayT">
+                <!-- <img src="Avenue_Images\monroeT.jpg" alt="White Avenue T-shirt short sleeves for women">
+                <p class="rrp"><span class="currency">&#163</span>47.50</p> -->
+            </div>
+            
         </div>
-    </main>
+        <div class="seperationLine"></div>
+    </div>
+    <div class="lookbooks_MWY">
+        <div class="lookBookBox_MWY" id="men">
+            <h3>men's <span class="lookbookTitle">Lookbook</span></h3>
+            <p>Lorem ipsum dolor sit amet eras facilisis consectetur adipiscing elit lor, integer lorem consecteur dignissim laciniqui.Elementum metus facilisis ut phasellu.</p>
+            <button class="viewNow">view now</button>
+        </div>
+        <div class="lookBookBox_MWY" id="women">
+            <h3>women's <span class="lookbookTitle">Lookbook</span></h3>
+            <p>Pellentesque habitant morbi tristique senec-tus et netus et malesuada fames. <br> Pellentesque laoreet quis enim et mattis. Quisque inerdum felis tellus.</p>
+            <button class="viewNow">view now</button>
+        </div>
+        <div class="lookBookBox_MWY" id="you">
+            <h3>your <span class="lookbookTitle">Lookbook</span></h3>
+            <p>See an item you like and click the <span class="fa fa-heart-o fa-1"></span>
+                button to add it to your lookbook where you can create your own perfect look. It's like your own boutique!</p>
+            <button class="viewNow">view now</button>
+        </div>
+    </div>
+
+
+
+    </main>        
     <footer>
         <div class="sitemap"> 
             <nav>
@@ -159,7 +167,7 @@
                     <h4>Information</h4>
                     <ul>
                         <li>The brand</li>
-                        <li>Local stores</li>
+                        <li class="currentPage">Local stores</li>
                         <li>Customer service</li>
                         <li>Privacy &amp; cookies</li>
                         <li>Site map</li>
@@ -229,6 +237,6 @@
                 <p> Dev by Loremipsum</p>
             </div>
         </div>
-    </footer>
+    </footer>        
 </body>
 </html>
