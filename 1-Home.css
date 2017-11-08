@@ -22,10 +22,10 @@ header .UserDetailsNav {
 }
 header .UserDetailsNav .currencyBox {
     color: #777777;;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     position: relative;
     font-size: 13px;
-    width:115px;
+    width:117px;
     font-weight: 400;
     text-align: left;
     border:none;
@@ -42,7 +42,7 @@ header .UserDetailsNav .currencyBox {
 header .UserDetailsNav .currency {
     background-color: #333333;
     border: 0px;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #777777;
     margin: 0px;
     padding: 0px;
@@ -76,7 +76,7 @@ header .UserDetailsNav ul {
     top:16px;
     margin: 0px;
     padding: 0px;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #999999;
     font-size: 13px;
     font-weight: 400;
@@ -85,7 +85,7 @@ header .UserDetailsNav ul {
 }
 header .UserDetailsNav ul li{
     display: inline-block;
-    padding-right:60px;
+    padding: 0 60px 0 0;
 }
 header .shoppingCart {
     position: absolute;
@@ -117,7 +117,7 @@ header .shoppingCart img {
     font-weight: 400;
     line-height: 21px;
     text-align: left;
-    font-family: Montserrat;    
+    font-family:'Montserrat';    
 }
 header .shoppingCart p{
     position: relative;
@@ -129,7 +129,7 @@ header .shoppingCart p{
     padding: 0px;
     background-color:  #00c8c8;
     border:0px;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #ffffff;
     font-size: 13px;
     font-weight: 400;
@@ -191,7 +191,7 @@ main .search input {
 main h1{
     position: absolute;
     float:left;
-    font-family: Montserrat, sans-serif;
+    font-family:'Montserrat', sans-serif;
     color:  #222222;
     font-weight: 700;
     font-variant-caps: all-small-caps;
@@ -207,7 +207,7 @@ main h1{
     left: 260px;
     margin:0;
     padding:0;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     width:1529px;
     height: 316px;
     letter-spacing: 295px;
@@ -228,15 +228,15 @@ main .MainNavList .MainNavul{
     display: flex;
     flex-direction: row;    
     Justify-content: space-between;  
+    flex-wrap: nowrap;
     position: absolute;
     top:91px;
     left:1015px;
     width: 595px;
-    
 }
 main .MainNavList .MainNavli{
     list-style: none;
-    font-family: Montserrat, sans-serif;
+    font-family:'Montserrat', sans-serif;
     color:  #222222;
     font-variant-caps: all-small-caps;
     font-size: 13px;
@@ -283,7 +283,7 @@ main .NavPopUp .PopUpList ul {
     list-style: none;
     padding: 0;
     margin:0;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #727272;
     font-size: 14px;
     font-weight: 300;
@@ -293,7 +293,7 @@ main .NavPopUp .PopUpList ul {
 }
 main .PopUpList h3 {
     position: relative;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #575153;
     margin:0;
     padding:0;
@@ -314,7 +314,7 @@ main .PopUpAutomnSale {
 }
 main .PopUpAutomnSale p {
     position: relative;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #ffffff;
     font-size: 36px;
     line-height: 48px;
@@ -336,7 +336,7 @@ main .PopUpAutomnSale p {
     border-color:  #737373;
     box-sizing: border-box;
     background-color:  rgba(115, 115, 115, 0);
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #454647;
     font-size: 26px;
     font-variant-caps: all-small-caps;
@@ -362,7 +362,7 @@ main .productsNav {
 main .productsNav ul {
     margin: 0;
     padding:0;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     font-variant-caps: all-small-caps;    
     color:  #727272;
     font-size: 13px;
@@ -400,7 +400,7 @@ main .productsimg .rrp {
     z-index: 0.5;
     margin:0;
     padding:0;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #9a9a9a;
     font-size: 21px;
     font-weight: 300;
@@ -487,7 +487,7 @@ main .productsimg .infoBar {
 }
 .productsimg .infoBar h3{
     position: absolute;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #727272;
     font-size: 19px;
     padding: 0;
@@ -600,7 +600,7 @@ main .lookBookBox {
 }
 main .lookBookBox h3 {
     position: relative;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #575153;
     font-size: 50px;
     font-weight: 700;
@@ -617,7 +617,7 @@ main .lookBookBox h3 {
     letter-spacing: 7px;
 }
 main .lookBookBox .lookbookTitle {
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #575153;
     font-size: 48px;
     font-weight: 300;
@@ -662,7 +662,7 @@ main .lookBookBox .viewNow {
     background-color:  rgba(115, 115, 115, 0);
     width: 180px;
     height: 59px;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #454647;
     font-size: 17px;
     font-weight: 400;
@@ -722,7 +722,7 @@ footer .socialMediaBox {
     vertical-align: center;
 }
 footer .awardBox h3{
-    font-family: Montserrat;
+    font-family:'Montserrat';
     font-variant-caps: all-small-caps;
     letter-spacing: 5px;
     color:  #ffffff;
@@ -765,7 +765,7 @@ footer .copyrightsLine p {
 }
 footer .copyrightsLine .copyrights {
     position: relative;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #999999;
     font-size: 13px;
     font-weight: 400;
@@ -784,7 +784,7 @@ footer .copyrightsLine .credits {
     justify-content: space-between;
     width: 395px;
     height:13px;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #777777;
     font-size: 13px;  
     font-weight: 400;
@@ -797,7 +797,7 @@ footer .copyrights .tm {
 }
 footer .sitemap ul {
     list-style: none;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #727272;
     font-size: 14px;
     font-weight: 300;
@@ -810,7 +810,7 @@ footer .sitemapColumns {
     padding: 0px 102px 0px 0px;
 }
 footer .sitemapColumns h4 {
-font-family: Montserrat;
+font-family:'Montserrat';
 color:  #575153;
 font-size: 13px;
 font-weight: 400;

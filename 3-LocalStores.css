@@ -32,10 +32,10 @@ header .UserDetailsNav {
 }
 header .UserDetailsNav .currencyBox {
     color: #777777;;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     position: relative;
     font-size: 13px;
-    width:115px;
+    width:117px;
     font-weight: 400;
     text-align: left;
     border:none;
@@ -52,7 +52,7 @@ header .UserDetailsNav .currencyBox {
 header .UserDetailsNav .currency {
     background-color: #333333;
     border: 0px;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #777777;
     margin: 0px;
     padding: 0px;
@@ -86,7 +86,7 @@ header .UserDetailsNav ul {
     top:16px;
     margin: 0px;
     padding: 0px;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #999999;
     font-size: 13px;
     font-weight: 400;
@@ -127,7 +127,7 @@ header .shoppingCart img {
     font-weight: 400;
     line-height: 21px;
     text-align: left;
-    font-family: Montserrat;    
+    font-family:'Montserrat';    
 }
 header .shoppingCart p{
     position: relative;
@@ -139,7 +139,7 @@ header .shoppingCart p{
     padding: 0px;
     background-color:  #00c8c8;
     border:0px;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #ffffff;
     font-size: 13px;
     font-weight: 400;
@@ -228,6 +228,7 @@ main .MainNavList .MainNavul{
     display: flex;
     flex-direction: row;    
     Justify-content: space-between;  
+    flex-wrap: nowrap;    
     position: absolute;
     top:47px;
     left:1015px;
@@ -600,7 +601,7 @@ footer .socialMediaBox {
     vertical-align: center;
 }
 footer .awardBox h3{
-    font-family: Montserrat;
+    font-family:'Montserrat';
     font-variant-caps: all-small-caps;
     letter-spacing: 5px;
     color:  #ffffff;
@@ -643,7 +644,7 @@ footer .copyrightsLine p {
 }
 footer .copyrightsLine .copyrights {
     position: relative;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #999999;
     font-size: 13px;
     font-weight: 400;
@@ -662,7 +663,7 @@ footer .copyrightsLine .credits {
     justify-content: space-between;
     width: 395px;
     height:13px;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #777777;
     font-size: 13px;  
     font-weight: 400;
@@ -675,7 +676,7 @@ footer .copyrights .tm {
 }
 footer .sitemap ul {
     list-style: none;
-    font-family: Montserrat;
+    font-family:'Montserrat';
     color:  #727272;
     font-size: 14px;
     font-weight: 300;
@@ -688,7 +689,7 @@ footer .sitemapColumns {
     padding: 0px 102px 0px 0px;
 }
 footer .sitemapColumns h4 {
-font-family: Montserrat;
+font-family:'Montserrat';
 color:  #575153;
 font-size: 13px;
 font-weight: 400;
