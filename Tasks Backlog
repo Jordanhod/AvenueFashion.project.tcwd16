@@ -11,3 +11,7 @@ fix select boxes in page 5-product-view
 fix shopping cart icon in all headers
 
 connect the pages
+
+fix cursor in all pages
+
+make sure "currentPage" is on every page
