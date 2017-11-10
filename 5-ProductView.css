@@ -419,7 +419,7 @@ main .topBanner .slogan {
     margin:0;
     padding:0;
     top: 244px;
-    left: 740px;
+    left: 406px;
     letter-spacing: 3px;
     font-size: 40px;
     font-weight: 400;
@@ -731,6 +731,7 @@ main .AddToButtons .AddToCompare {
     text-align: center;
     letter-spacing: 3px;
     font-variant-caps: all-small-caps;
+    outline:none;
 }
 main .AddToButtons .AddToCompare .container {
     position: relative;
@@ -751,7 +752,68 @@ main .AddToButtons .AddToCompare .fa{
     font-weight: 400;
     text-align: center;
 }
-
+main .productView .productMenu {
+    position: relative;
+    top: 38px;
+    height: 350px;
+    
+}
+main .productMenu .navBar{
+    background-color:  #f8f8f8;
+    width: 1170px;
+    height: 50px;
+}
+main .productMenu .navBar li {
+    list-style: none;
+    display: inline-block;
+    padding-right:30px;
+}
+main .productMenu .navBar li button {
+    font-family: 'Montserrat';
+    color:  #575153;
+    font-size: 20px;
+    font-weight: 600;
+    font-variant-caps: all-small-caps;
+    border: none;
+    background-color: transparent;
+    width: 141px;
+    height: 50px;
+}
+.productMenu .navBar .delivaryReturns button{
+    width: 241px;
+}
+/* .productMenu .navBar button:active{
+    background-color:  #333333;    
+    color:  #ffffff;   
+}
+.productMenu .navBar button:focus{
+    background-color:  #333333;  
+    color:  #ffffff;
+} */
+.productMenu .navBar button {
+    outline:none;
+}
+.productMenu .navBar .description button {
+    background-color:  #333333;    
+    color:  #ffffff;
+}
+.descriptionBox {
+    position: absolute;
+    font-family: Roboto;
+    color:  #8e8c8c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+.productMenu .descriptionBox {
+    font-family: 'Montserrat';
+    color:  #727272;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
 footer {
     position: absolute;
     width: 2050px;
