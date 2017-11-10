@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="5-ProductView.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+    <script src="https://use.fontawesome.com/2f39747657.js"></script>
+    <header>
+        <nav class="UserDetailsNav">
+            <div class="currencyBox">
+            <span>Currency:</span>
+                <select class="currency">
+                    <option value="GBP" selected>GPB</option>
+                    <option value="USD">USD</option>
+                    <option value="ILS">ILS</option>
+                    <option value="Yuan">Yuan</option>
+                </select>            
+            </div>
+            <span class="fa fa-angle-down fa-2"></span>
+            <ul>        
+                <li>Register</li>
+                <li>Sign In</li>
+            </ul>
+            <div class="shoppingCart">
+                <img src="Avenue_Images\shoppingCart.png" alt="shopping cart icon">             
+                <p class="shoppingCartStatus">empty</p>
+                <span class="fa fa-angle-down fa-2"></span>
+            </div>
+        </nav>
+    </header>    
+    <main>
+        <div class="top">
+            <h1><span style="font-weight:700">Avenue</span><span style="font-weight:400"> Fashion</span></h1>
+            <div class="search">
+                <input type="search" placeholder="search..">
+                <img src="Avenue_Images\Search.jpg" alt="search icon">
+            </div>
+            <div class="MainNav">
+                <nav class="MainNavList">
+                    <ul class="MainNavul">
+                        <li class="MainNavli"> 
+                            <span class="Mens currentPage">Mens <br> <span class="fa fa-angle-down fa-2"></span></span>
+                            <div class="Mens_NavPopUp">
+                                <div class="PopUpList">
+                                    <h3>Casuals</h3>
+                                    <ul>
+                                        <li>Jackets</li>
+                                        <li>Hoodies &amp; sweatshirts</li>
+                                        <li>Polo Shirts</li>
+                                        <li>Sportswear</li>
+                                        <li>Trousers &amp; Chinos</li>
+                                        <li>T-shirts</li>
+                                    </ul>    
+                                </div>
+                                <div class="PopUpList">
+                                    <h3>Formal</h3>
+                                    <ul>
+                                        <li>Jackets</li>
+                                        <li>Shirts</li>
+                                        <li>Suits</li>
+                                        <li>Trousers</li>
+                                    </ul>                        
+                                </div>
+                                <div class="PopUpAutomnSale">
+                                    <p><span style="font-weight: 700">Autumn Sale!</span> 
+                                    <br><span style="font-weight: 400">Up to 50% off</span></p>
+                                </div>
+                            </div>                
+                        </li>
+                        <li class="MainNavli" ><span class="Women">Womens <br> <span class="fa fa-angle-down fa-2"></span></span></li>
+                        <li class="MainNavli" ><span class="TheBrand">The Brand  <br> <span class="fa fa-angle-down fa-2"></span></span></li>
+                        <li class="MainNavli" ><span class="LocalStores">Local Stores  <br> <span class="fa fa-angle-down fa-2"></span></span></li>
+                        <li class="MainNavli"><span class="Look_Book">Look Book <br> <span class="fa fa-angle-down fa-2"></span>
+                            <div class="Lookbook_NavPopUp">
+                                <div class="PopUpList">
+                                    <h3>Our Lookbooks</h3>
+                                    <ul>
+                                        <li>Latest Posts (mixed)</li>
+                                        <li>Men's Lookook</li>
+                                        <li>Women's Lookbook</li>
+                                    </ul>    
+                                </div>
+                                <div class="PopUpList">
+                                    <h3>Your Lookbook</h3>
+                                    <ul>
+                                        <li>View and Edit</li>
+                                        <li>Share</li>
+                                        <li>Delete</li>
+                                    </ul>                        
+                                </div>
+                                <div class="PopUpAutomnSale">
+                                    <p><span style="font-weight: 700">Autumn Sale!</span> 
+                                    <br><span style="font-weight: 400">Up to 50% off</span></p>
+                                </div>
+                            </div></span>
+                        </li>
+                    </ul>
+                </nav>                
+            </div>
+        </div>
+        <div class="topBanner">
+            <img class="topBannerimg" src="Avenue_Images\TheBrand_TopBanner.jpg" alt="Avenue fashion - The brand banner">        
+            <div class="ave">AVE</div>
+            <div class="darken"></div>
+            <h2><span>Product</span> view</h2>
+            <p class="slogan"> Mens - Casuals - Hoodies &amp; Sweatshirts - <span class="currentPage">Ave Classic sweatshirt</span></p>
+        </div>
+        <div class="productView">
+            <div class="MainPicsAndInfo">
+                <div class="productimg">
+                    <div class="arrows">
+                        <span class="fa fa-angle-left fa-4"></span>
+                        <span class="fa fa-angle-right fa-4"></span>
+                    </div>
+                </div>
+                <div class="productinfo">
+                    <h3>Ave Classic Sweatshirt</h3>
+                    <div class="reviewLine">
+                        <div class="reviewBox left">
+                            <div class="inline">
+                                <div class="stars">
+                                    <span class="fa fa-star fa-1 full"></span>
+                                    <span class="fa fa-star fa-1 full"></span>
+                                    <span class="fa fa-star fa-1 full"></span>
+                                    <span class="fa fa-star fa-1 full"></span>
+                                    <span class="fa fa-star fa-1 empty"></span>
+                                </div>
+                            </div>
+                            <p class="inline">3 Review(s)</p>
+                        </div>
+                        <div class="reviewBox center"><p>Add a Review</p></div>
+                        <div class="reviewBox right">
+                            <p class="inline">Share:</p>
+                            <div class="inline">
+                                <div class="shareBox">
+                                    <div class="fa fa-facebook fa-3"></div>
+                                    <div class="fa fa-twitter fa-3"></div>
+                                    <div class="fa fa-google-plus fa-3"></div>
+                                    <div class="fa fa-pinterest fa-3"></div> 
+                                    <div class="fa fa-instagram fa-3"></div>
+                                    <div class="fa fa-envelope-o fa-3"></div>                            
+                                </div>          
+                            </div>  
+                        </div>
+                    </div>
+                    <p class="rrp"><span class="currency">&#163</span><span class="oldPrice">107</span><span class="newPrice"></span><span class="currency">&#163</span>89.99</span></p>
+                    <div class="productTags">
+                        <ul>
+                            <li class="availability"><span class="title">Availability:</span> In Stock</li>
+                            <li class="productCode"><span class="title">Product Code:</span> #499577</li>
+                            <li class="tags"><span class="title">Tags:</span> Classic, Casual, V-neck, Loose</li>
+                        </ul>
+                    </div>
+                    <div class="MerketialText">
+                        <p>Donec sem lorem laoreet tempor un risus vitae, rutrum sodales nibh suspendisse est congue metus nunc, id viverra elit loreti rhoncus quis consecteur es. Donec pulvinar tempor lorem a pretium justo interdum.</p>
+                        <ul>
+                            <li>Elasticated cuffs</li>
+                            <li>Casual fit</li>
+                            <li>100% cotton</li>
+                            <li>Free shipping with 4 days delivery</li>
+                        </ul>
+                    </div>
+                    <div class="productSelect">
+                        <div class="color selectBox">
+                            <p>Colour</p>
+                            <select name="color">
+                                <option value="" disabled selected>Select Colour</option>
+                                <option value="Black">Black</option>
+                            </select>
+                        </div>
+                        <div class="size selectBox">
+                            <p>Size</p>
+                            <select name="size">
+                                <option value="" disabled selected>Select Size</option>
+                                <option value="small">S</option>
+                                <option value="medium">M</option>
+                                <option value="large">L</option>
+                                <option value="extra-large">XL</option>
+                                <option value="extra-extra-large">XXL</option>
+                            </select>
+                        </div>
+                        <div class="qty selectBox">
+                            <p>QTY</p>
+                            <select name="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="AddToButtons">
+                        <button class="AddToCart"><span class="fa fa-shopping-cart fa-2"></span> Add To Cart</button>
+                        <button class="AddToLookbook"><span class="fa fa-heart-o fa-3"></span>Add To Lookbook</button>
+                        <button class="AddToCompare"><div class="container"><span class="fa fa-compress fa-2"></span></div>Add to compare</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ProductExpandedBox">
+               <nav class="ProductNav"> 
+                   <ul>
+                       <li><button>Description</button>
+                            <div class="descriptionBox">
+                                <p>Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit. Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget lorem tellus.</p>
+                                <p>Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit, tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.</p>
+                            </div>
+                       </li>
+                       <li><button>Video</button></li>
+                       <li><button>Size &amp; specs</button></li>
+                       <li><button>Delivary &amp; returns</button></li>
+                       <li><button>Reviews</button></li>
+                   </ul>
+               </nav>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="sitemap"> 
+            <nav>
+                <div class="sitemapColumns">
+                    <h4>Information</h4>
+                    <ul>
+                        <li>The brand</li>
+                        <li>Local stores</li>
+                        <li>Customer service</li>
+                        <li>Privacy &amp; cookies</li>
+                        <li>Site map</li>
+                    </ul>
+                </div>
+                <div class="sitemapColumns">
+                    <h4>Why buy from us</h4>
+                    <ul>
+                        <li>Shipping &amp; returns</li>
+                        <li>Secure shopping</li>
+                        <li>Testimonials</li>
+                        <li>Award winning</li>
+                        <li>Ethical trading</li>
+                    </ul>
+                </div>
+                <div class="sitemapColumns">
+                    <h4>Your account</h4>
+                    <ul>
+                        <li>Sign in</li>
+                        <li>Register</li>
+                        <li>View cart</li>
+                        <li>View your lookbook</li>
+                        <li>Track an order</li>
+                        <li>update information</li>
+                    </ul>
+                </div>
+                <div class="sitemapColumns">
+                    <h4>Lookbook</h4>
+                    <ul>
+                        <li>Latest post</li>
+                        <li>Men's lookbook</li>
+                        <li>Women's lookbook</li>
+                        <li>Lookbooks RSS feed</li>
+                        <li>View your lookbook</li>
+                        <li>Delete your lookbook</li>
+                    </ul>    
+                </div>
+                <div class="sitemapColumns">
+                    <h4>Contact details</h4>
+                    <address>
+                        <ul>
+                            <li class="postalAddress"><p>Head office: Avenue Fashion,</p><p>180-182 Regent Street, London.</p></li>
+                            <li>Telephone: 0123-456-789</li>
+                            <li>Email: support@yourwebsite.com</li>
+                        </ul>
+                    </address>
+                </div>
+            </nav>
+            <div class="footerBoxes">
+                <div class="awardBox">
+                    <h3>Award winner <br><span class="fashion">Fashion awards 2016</span></h3>
+                </div>
+                <div class="socialMediaBox">
+                    <div class="icons">
+                        <div class="fa fa-facebook fa-3"></div>
+                        <div class="fa fa-twitter fa-3"></div>
+                        <div class="fa fa-instagram fa-3"></div>
+                        <div class="fa fa-pinterest fa-3"></div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyrightsLine">
+            <p class="copyrights">&copy 2016 Avenue fashion <span class="tm">tm</span></p>
+            <div class="credits">
+                <p>Design by RobbyDesigns.com</p>
+                <p> Dev by Loremipsum</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
