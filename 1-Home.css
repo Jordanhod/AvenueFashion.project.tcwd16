@@ -14,6 +14,10 @@ header {
     width:2050px;
     height: 44px;
 }
+a {
+    text-decoration: none;
+    color:inherit;
+}
 header .UserDetailsNav {
     display: inline-block;
     background-color: #333333;
@@ -189,15 +193,15 @@ main .search input {
     height: 30px;
 }
 main h1{
-    position: absolute;
+    position: relative;
     float:left;
     font-family:'Montserrat', sans-serif;
     color:  #222222;
     font-weight: 700;
     font-variant-caps: all-small-caps;
-    text-align: left;
     left:134px;
-    top:82px;
+    top:-901px;
+    font-size:34px;
     width: 300px;
 }
 .topBanner .ave {
@@ -698,6 +702,53 @@ footer .sitemap {
     margin:0;
     padding:0;
 }
+footer .sitemap ul {
+    list-style: none;
+    font-family:'Montserrat';
+    color:  #727272;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+}
+footer .sitemapColumns {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 102px 0px 0px;
+}
+footer .sitemapColumns h4 {
+font-family:'Montserrat';
+color:  #575153;
+font-size: 17px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+font-variant-caps: all-small-caps;
+}
+footer .sitemap nav {
+    position: relative;
+    left:439px;
+    top: 43px;
+}
+footer .sitemap address {
+    font-style: inherit;
+}
+footer .sitemap .postalAddress {
+    position: relative;
+    top:5px;
+    display: flex;
+    flex-direction: column;
+    height: 34px;
+    align-content: space-between;
+    padding-bottom: 26px;
+}
+footer .sitemap .postalAddress p {
+    margin:0;
+    padding:0;
+    height: 18px;
+    position:relative;
+    top:-5px;
+}
 footer .footerBoxes{
     position: relative;
     display: flex;
@@ -722,21 +773,24 @@ footer .socialMediaBox {
     vertical-align: center;
 }
 footer .awardBox h3{
+    position: relative;
+    top:10px;
     font-family:'Montserrat';
     font-variant-caps: all-small-caps;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     color:  #ffffff;
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 700;
     line-height: 40px;
 }
 footer .awardBox .fashion {
+    position: relative;
+    top:5px;
     color:  #ffffff;
-    font-size: 36px;
+    font-size: 46px;
     font-weight: 300;
     text-align: center;
 }
-
 footer .socialMediaBox .icons {
     display:flex;
     flex-direction: row;
@@ -773,8 +827,7 @@ footer .copyrightsLine .copyrights {
     text-align: left;
     width: 164px;
     height: 11px;
-    left:440px;
-    
+    left:440px;   
 }
 footer .copyrightsLine .credits {
     position: relative;
@@ -794,53 +847,4 @@ footer .copyrights .tm {
     vertical-align: text-bottom;
     margin: 0;   
     font-variant-caps: all-small-caps;
-}
-footer .sitemap ul {
-    list-style: none;
-    font-family:'Montserrat';
-    color:  #727272;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 30px;
-    text-align: left;
-}
-footer .sitemapColumns {
-    display: inline-block;
-    vertical-align: top;
-    padding: 0px 102px 0px 0px;
-}
-footer .sitemapColumns h4 {
-font-family:'Montserrat';
-color:  #575153;
-font-size: 13px;
-font-weight: 400;
-line-height: 20px;
-text-align: left;
-font-variant-caps: all-small-caps;
-}
-footer .sitemap nav {
-    position: relative;
-    left:439px;
-    top: 43px;
-}
-footer .sitemap address {
-    font-style: inherit;
-    width:230px;
-}
-footer .sitemap .postalAddress {
-    position: relative;
-    top:5px;
-    display: flex;
-    flex-direction: column;
-    width: 212px;
-    height: 34px;
-    align-content: space-between;
-    padding-bottom: 26px;
-}
-footer .sitemap .postalAddress p {
-    margin:0;
-    padding:0;
-    height: 18px;
-    position:relative;
-    top:-5px;
 }
