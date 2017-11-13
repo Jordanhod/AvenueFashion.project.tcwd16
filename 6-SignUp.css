@@ -102,6 +102,7 @@ header .UserDetailsNav ul {
 header .UserDetailsNav ul li{
     display: inline-block;
     padding-right:60px;
+    white-space: nowrap;
 }
 header .shoppingCart {
     position: absolute;
@@ -146,23 +147,6 @@ header .shoppingCart p{
     background-color:  #00c8c8;
     border:0px;
     font-family:'Montserrat';
-    color:  #ffffff;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
-    text-align: right;
-}
-header .shoppingCart p{
-    position: relative;
-    float:right;
-    list-style: none;
-    top:12px;
-    left: -40px;
-    margin: 0px;
-    padding: 0px;
-    background-color:  #00c8c8;
-    border:0px;
-    font-family: 'Montserrat';
     color:  #ffffff;
     font-size: 13px;
     font-weight: 400;
@@ -384,16 +368,20 @@ main .topBannerimg {
     position: absolute;
     left: 0;
 }
-.topBanner .ave {
+.topBanner .aveBox {
     position: relative;
     float:left;
     left: 260px;
-    margin:0;
-    padding:0;
-    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: row;
+    align-content: top;
+    justify-content: space-between;
+    top:-438px;
+    height:315px;
     width:1529px;
-    height: 316px;
-    letter-spacing: 295px;
+    padding: 0;
+    margin:0;
+    font-family: 'Montserrat';
     color: rgba(248, 248, 248, 0.219608);    
     font-size: 450px;
     font-weight: 700;
@@ -442,7 +430,7 @@ main .topBanner .darken {
     float: left;
 }
 main .signUpBox {
-    position: absolute;
+    position: relative;
     top:667px;
     left:439px;
 }
@@ -451,6 +439,7 @@ main .signUpBox .box {
     padding:0;
     margin: 0;
     width: 585px;
+    white-space: nowrap;
 }
 main .signUpBox .box h3 {
     font-family: Montserrat;
@@ -462,7 +451,7 @@ main .signUpBox .box h3 {
 }
 main .signUpBox .signIn {
     position: relative;
-    top:-168px;
+    top:-147px;
     left: -34px;
     border-right: 1px solid #eeeeee;
     height:395px;
@@ -602,8 +591,10 @@ font-variant-caps: all-small-caps;
 }
 footer .sitemap nav {
     position: relative;
-    left:439px;
+    left:0px;
     top: 43px;
+    width: 2050px;
+    text-align: center;
 }
 footer .sitemap address {
     font-style: inherit;
@@ -626,26 +617,30 @@ footer .sitemap .postalAddress p {
 }
 footer .footerBoxes{
     position: relative;
-    display: flex;
-    flex-direction: row;
-    width: 1170px;
-    height: 200px;
-    justify-content: space-between;
-    left: 440px;
     top: 98px;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    height: 200px;
+}
+footer .footerBox {
+    display: inline-block;
+    vertical-align: center;
 }
 footer .awardBox{
     background-color:  #333333;
     width: 570px;
     height: 200px;
     text-align: center;
+    margin-right:30px;
 }
 footer .socialMediaBox {
+    position: relative;
+    bottom: 93px;
     background-color:  #00c8c8;
     width: 570px;
     height: 200px;
     text-align: center;
-    vertical-align: center;
 }
 footer .awardBox h3{
     position: relative;
@@ -657,6 +652,7 @@ footer .awardBox h3{
     font-size: 48px;
     font-weight: 700;
     line-height: 40px;
+    width:inherit;
 }
 footer .awardBox .fashion {
     position: relative;

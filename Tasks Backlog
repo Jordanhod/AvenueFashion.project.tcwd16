@@ -6,10 +6,11 @@ BACKLOG:
 
 
 In PROCESS:
-    remove white spaces on the side & bottom
-    fix problems of zoom up and down of webpages
+    
 
 DONE:
+    fix problems of zoom up and down of webpages
+    remove white spaces on the side & bottom
     connect the pages
     make sure "currentPage" is on every page
     fix h1

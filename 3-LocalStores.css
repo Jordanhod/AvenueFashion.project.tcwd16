@@ -13,7 +13,6 @@
 html, body, header, footer, main, ul, h1 {
     margin:0;
     padding:0;
-    max-width: 100%;
 }
 a {
     text-decoration: none;
@@ -100,6 +99,7 @@ header .UserDetailsNav ul {
 header .UserDetailsNav ul li{
     display: inline-block;
     padding-right:60px;
+    white-space: nowrap;
 }
 header .shoppingCart {
     position: absolute;
@@ -341,16 +341,20 @@ main .topBannerimg {
     position: absolute;
     left: 0;
 }
-.topBanner .ave {
+.topBanner .aveBox {
     position: relative;
     float:left;
     left: 260px;
-    margin:0;
-    padding:0;
-    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: row;
+    align-content: top;
+    justify-content: space-between;
+    top:-438px;
     width:1529px;
-    height: 316px;
-    letter-spacing: 295px;
+    height: 315px;
+    padding: 0;
+    margin:0;
+    font-family: 'Montserrat';
     color: rgba(248, 248, 248, 0.219608);    
     font-size: 450px;
     font-weight: 700;
@@ -497,7 +501,7 @@ main .GoogleMap .fa-map-marker {
 }
 main .mapPopUp .mapText {
     position: relative;
-    left: -3px;
+    left: -4px;
     width: 663px;
     height: 530px;
     background-color:  #f8f8f8;    
@@ -507,6 +511,7 @@ main .mapPopUp .mapText .textContainer {
     position: relative;
     left: 41px;
     top: 13px;
+    width: 610px;
 }
 main .mapPopUp .mapText h3{    
     position: relative;
@@ -621,8 +626,10 @@ font-variant-caps: all-small-caps;
 }
 footer .sitemap nav {
     position: relative;
-    left:439px;
+    left:0px;
     top: 43px;
+    width: 2050px;
+    text-align: center;
 }
 footer .sitemap address {
     font-style: inherit;
@@ -645,26 +652,30 @@ footer .sitemap .postalAddress p {
 }
 footer .footerBoxes{
     position: relative;
-    display: flex;
-    flex-direction: row;
-    width: 1170px;
-    height: 200px;
-    justify-content: space-between;
-    left: 440px;
     top: 98px;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    height: 200px;
+}
+footer .footerBox {
+    display: inline-block;
+    vertical-align: center;
 }
 footer .awardBox{
     background-color:  #333333;
     width: 570px;
     height: 200px;
     text-align: center;
+    margin-right:30px;
 }
 footer .socialMediaBox {
+    position: relative;
+    bottom: 93px;
     background-color:  #00c8c8;
     width: 570px;
     height: 200px;
     text-align: center;
-    vertical-align: center;
 }
 footer .awardBox h3{
     position: relative;
@@ -676,6 +687,7 @@ footer .awardBox h3{
     font-size: 48px;
     font-weight: 700;
     line-height: 40px;
+    width:inherit;
 }
 footer .awardBox .fashion {
     position: relative;
