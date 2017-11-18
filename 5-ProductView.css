@@ -516,6 +516,7 @@ main .productinfo .reviewLine {
 }
 .productinfo .reviewLine .center {
     border-right: 2px #dfdfde solid;
+    cursor: pointer;
 } 
 .productinfo .reviewLine p {
     font-family: Montserrat;
@@ -668,12 +669,55 @@ main .productSelect select {
     font-size: 13px;
     font-weight: 300;
     line-height: 22px;
-    text-align: left;
+    border:none;
+    outline:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
 }
-main .productSelect .qty select {
+.productSelect .containter {
+    width: 170px;
+    height: 35px;
+    border: 1px  #e7e7e7 solid;
+    box-sizing: border-box;
+    background-color:  rgba(45, 113, 240, 0);
+}
+.productSelect .qtyContainter {
     width: 70px;
     height: 35px;
+    border: 1px  #e7e7e7 solid;
+    box-sizing: border-box;
+    background-color:  rgba(45, 113, 240, 0);
 }
+.productSelect .color .fa {
+    position: relative;
+    top:-27px;
+    left:150px;
+    color:  #989898;    
+}
+.productSelect .size .fa {
+    position: relative;
+    top:-27px;
+    left:150px;
+    color:  #989898;    
+}
+.productSelect .qtyContainter .fabox {
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+    position: relative;
+    top:-36px;
+    left:36px;
+    color:  #989898;    
+}
+.productSelect .qty button {
+    border: 1px  #e7e7e7 solid;
+    background-color: inherit;
+    width: 33px;    
+    color:  #989898;
+}
+
 main .productinfo .AddToButtons {
     position: relative;
     top:150px;
@@ -691,6 +735,7 @@ main .AddToButtons .AddToCart {
     text-align: center;
     letter-spacing: 3px;
     font-variant-caps: all-small-caps;
+    cursor: pointer;
 }
 main .AddToButtons .AddToCart .fa{
     font-family: FontAwesome;
@@ -714,6 +759,7 @@ main .AddToButtons .AddToLookbook {
     text-align: center;
     letter-spacing: 3px;
     font-variant-caps: all-small-caps;
+    cursor: pointer;
 }
 main .AddToButtons .AddToLookbook .fa{
     font-family: FontAwesome;
@@ -742,6 +788,7 @@ main .AddToButtons .AddToCompare {
     letter-spacing: 3px;
     font-variant-caps: all-small-caps;
     outline:none;
+    cursor: pointer;
 }
 main .AddToButtons .AddToCompare .container {
     position: relative;

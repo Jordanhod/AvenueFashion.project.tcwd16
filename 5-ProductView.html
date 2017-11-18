@@ -14,7 +14,7 @@
     <header>
         <nav class="UserDetailsNav">
             <div class="currencyBox">
-            <span>Currency:</span>
+                <span>Currency:</span>
                 <select class="currency">
                     <option value="GBP" selected>GPB</option>
                     <option value="USD">USD</option>
@@ -173,31 +173,43 @@
                     <div class="productSelect">
                         <div class="color selectBox">
                             <p>Colour</p>
-                            <select name="color">
-                                <option value="" disabled selected>Select Colour</option>
-                                <option value="Black">Black</option>
-                            </select>
+                            <div class="containter">
+                                <select name="color">
+                                    <option value="" disabled selected> Select Colour</option>
+                                    <option value="Black">Black</option>
+                                </select>
+                                <span class="fa fa-angle-down fa-2"></span>
+                            </div>
                         </div>
                         <div class="size selectBox">
                             <p>Size</p>
-                            <select name="size">
-                                <option value="" disabled selected>Select Size</option>
-                                <option value="small">S</option>
-                                <option value="medium">M</option>
-                                <option value="large">L</option>
-                                <option value="extra-large">XL</option>
-                                <option value="extra-extra-large">XXL</option>
-                            </select>
+                            <div class="containter">
+                                <select name="size">
+                                    <option value="" disabled selected>Select Size</option>
+                                    <option value="small">S</option>
+                                    <option value="medium">M</option>
+                                    <option value="large">L</option>
+                                    <option value="extra-large">XL</option>
+                                    <option value="extra-extra-large">XXL</option>
+                                </select>
+                                <span class="fa fa-angle-down fa-2"></span>
+                            </div>
                         </div>
                         <div class="qty selectBox">
                             <p>QTY</p>
-                            <select name="quantity">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                            </select>
+                            <div class="qtyContainter">
+                                <select name="quantity">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                                <div class="fabox">
+                                   <button><span class="fa fa-angle-up fa-2"></span></button>
+                                   <button><span class="fa fa-angle-down fa-2"></span></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="AddToButtons">
