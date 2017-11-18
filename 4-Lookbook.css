@@ -534,6 +534,7 @@ main .lookbooks_img .rrp {
     text-align: center;
     letter-spacing: 3px;
     font-variant-caps: all-small-caps;
+    cursor: pointer;
 }
 .lookbooks_img .JanesLookbook .viewNow:hover {
     border-style: solid;
@@ -658,6 +659,7 @@ main .JanesLookbook .st {
     text-align: center;
     letter-spacing: 3px;
     font-variant-caps: all-small-caps;
+    cursor: pointer;
 }
 .lookbooks_img .WinANewLook .viewNow:hover {
     border-style: solid;
@@ -771,6 +773,7 @@ main .WinANewLook .WinSlogen .win {
     text-shadow: 1px 2px 12.32px rgba(0, 0, 0, 0.13);
     width: 42px;
     height: 42px;
+    cursor: pointer;
 }
 .lookbooks_img .circle {
     border-radius: 50%;
@@ -779,6 +782,7 @@ main .WinANewLook .WinSlogen .win {
     width: 42px;
     height: 42px;
     float: left;
+    cursor: pointer;
 }
 .lookbooks_img .fa-heart {
     position: relative;
@@ -892,6 +896,7 @@ main .lookBookBox_MWY .viewNow {
     text-align: center;
     letter-spacing: 3px;
     font-variant-caps: all-small-caps;
+    cursor: pointer;
 }
 main .lookBookBox_MWY .viewNow:hover {
     border-style: solid;

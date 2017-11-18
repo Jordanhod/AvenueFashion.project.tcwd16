@@ -441,8 +441,6 @@ main .location h3 {
 }
 main .location .viewDetails {
     position:relative;
-    /* top: 249px;
-    left: 426px; */
     border-style: solid;
     border-width: 2px;
     border-color:  #737373;
@@ -457,6 +455,7 @@ main .location .viewDetails {
     text-align: center;
     letter-spacing: 3px;
     font-variant-caps: all-small-caps;
+    cursor: pointer;
 }
 main .location .viewDetails:hover {
     border-style: solid;

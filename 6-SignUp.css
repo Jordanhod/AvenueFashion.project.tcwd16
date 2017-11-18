@@ -491,6 +491,7 @@ main .signUpBox .signIn .flexContainer {
     letter-spacing: 4px;
     font-weight: 400;
     font-variant-caps: all-small-caps;
+    cursor: pointer;
 }
 .signUpBox .signIn a {
     position: relative;
@@ -536,6 +537,7 @@ main .signUpBox .signIn .flexContainer {
     letter-spacing: 4px;
     font-weight: 600;
     font-variant-caps: all-small-caps;
+    cursor: pointer;
 }
 .signUpBox .register p {
     position: relative;
